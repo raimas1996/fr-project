@@ -1,0 +1,22 @@
+Jan 05 16:10:34.386 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 16:10:34.392 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49190.
+Jan 05 16:10:35.035 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 16:10:35.127 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 16:10:35.127 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 16:10:35.220 HYPERVISOR: exec_cmd: ethsw create Internal Datacenter 
+Jan 05 16:10:41.188 HYPERVISOR: exec_cmd: nio create_udp udp-254b3988-4f66-4d8b-90e7-2effb2a6dd5e 10091 127.0.0.1 10090 
+Jan 05 16:10:41.275 HYPERVISOR: exec_cmd: ethsw add_nio Internal Datacenter udp-254b3988-4f66-4d8b-90e7-2effb2a6dd5e 
+Jan 05 16:10:41.364 HYPERVISOR: exec_cmd: ethsw set_access_port Internal Datacenter udp-254b3988-4f66-4d8b-90e7-2effb2a6dd5e 1 
+Jan 05 16:10:41.599 HYPERVISOR: exec_cmd: nio create_udp udp-01e7ce3c-4b4c-4fb6-8658-ad598514d7cf 10094 127.0.0.1 10095 
+Jan 05 16:10:41.651 HYPERVISOR: exec_cmd: ethsw add_nio Internal Datacenter udp-01e7ce3c-4b4c-4fb6-8658-ad598514d7cf 
+Jan 05 16:10:41.790 HYPERVISOR: exec_cmd: ethsw set_access_port Internal Datacenter udp-01e7ce3c-4b4c-4fb6-8658-ad598514d7cf 1 
+Jan 05 16:10:45.037 HYPERVISOR: exec_cmd: nio create_udp udp-2a97c4c9-0a0a-47a9-9ef8-db6af689b371 10113 127.0.0.1 10112 
+Jan 05 16:10:45.193 HYPERVISOR: exec_cmd: ethsw add_nio Internal Datacenter udp-2a97c4c9-0a0a-47a9-9ef8-db6af689b371 
+Jan 05 16:10:45.342 HYPERVISOR: exec_cmd: ethsw set_access_port Internal Datacenter udp-2a97c4c9-0a0a-47a9-9ef8-db6af689b371 1 
+Jan 05 16:10:46.041 HYPERVISOR: exec_cmd: nio create_udp udp-7204c2ef-a18b-4c58-aa83-1f6863b48a08 10125 127.0.0.1 10124 
+Jan 05 16:10:46.142 HYPERVISOR: exec_cmd: ethsw add_nio Internal Datacenter udp-7204c2ef-a18b-4c58-aa83-1f6863b48a08 
+Jan 05 16:10:46.252 HYPERVISOR: exec_cmd: ethsw set_access_port Internal Datacenter udp-7204c2ef-a18b-4c58-aa83-1f6863b48a08 1 
+Jan 05 16:11:40.773 HYPERVISOR: exec_cmd: ethsw delete Internal Datacenter 
+Jan 05 16:11:41.050 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 16:11:41.447 HYPERVISOR: Stopped.
+Jan 05 16:11:41.447 GENERAL: reset done.

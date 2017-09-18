@@ -1,0 +1,61 @@
+Jan 03 15:26:32.093 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 03 15:26:32.094 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60711.
+Jan 03 15:26:32.276 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 03 15:26:32.302 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 03 15:26:32.303 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 03 15:26:32.333 HYPERVISOR: exec_cmd: vm create Router2 9 c3745 
+Jan 03 15:26:32.335 VM: VM Router2 created.
+Jan 03 15:26:32.359 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router2 5004 
+Jan 03 15:26:32.383 HYPERVISOR: exec_cmd: c3745 get_mac_addr Router2 
+Jan 03 15:26:32.411 HYPERVISOR: exec_cmd: vm set_ios Router2 C:/Users/Pedro/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 03 15:26:32.437 HYPERVISOR: exec_cmd: c3745 set_mac_addr Router2 c409.1ed4.0000 
+Jan 03 15:26:32.471 HYPERVISOR: exec_cmd: vm set_ram Router2 256 
+Jan 03 15:26:32.507 HYPERVISOR: exec_cmd: vm set_disk0 Router2 0 
+Jan 03 15:26:32.535 HYPERVISOR: exec_cmd: vm set_exec_area Router2 64 
+Jan 03 15:26:32.569 HYPERVISOR: exec_cmd: vm set_nvram Router2 256 
+Jan 03 15:26:32.614 HYPERVISOR: exec_cmd: vm set_config Router2 configs/i9_startup-config.cfg 
+Jan 03 15:26:34.962 HYPERVISOR: exec_cmd: nio create_udp udp-2cdc5b4b-70a4-4a0f-aaa3-dc84092bcece 10048 127.0.0.1 10049 
+Jan 03 15:26:34.993 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 0 1 udp-2cdc5b4b-70a4-4a0f-aaa3-dc84092bcece 
+Jan 03 15:26:35.013 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 03 15:26:35.063 HYPERVISOR: exec_cmd: nio create_udp udp-da832639-2d5f-4b16-88af-31841ae41e41 10050 127.0.0.1 10051 
+Jan 03 15:26:35.121 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 0 0 udp-da832639-2d5f-4b16-88af-31841ae41e41 
+Jan 03 15:26:35.162 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 03 15:26:40.184 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Jan 03 15:26:40.185 VM: VM Ghost created.
+Jan 03 15:26:40.205 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Pedro/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 03 15:26:40.226 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 03 15:26:40.244 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c3745-advipservicesk9-m.124-4.T1.bin-256.ghost 
+Jan 03 15:26:40.270 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Jan 03 15:26:40.298 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 03 15:26:40.324 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 03 15:26:40.693 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 03 15:26:40.701 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 03 15:26:40.765 VM: VM Ghost shutdown.
+Jan 03 15:26:40.769 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 03 15:26:40.769 VM: VM Ghost destroyed.
+Jan 03 15:26:40.784 HYPERVISOR: exec_cmd: vm set_ghost_status Router2 2 
+Jan 03 15:26:40.791 HYPERVISOR: exec_cmd: vm set_ghost_file Router2 c3745-advipservicesk9-m.124-4.T1.bin-256.ghost 
+Jan 03 15:26:40.798 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 03 15:26:40.808 HYPERVISOR: exec_cmd: vm start Router2 
+Jan 03 15:37:58.037 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 15:37:58.090 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 15:37:58.132 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:56:19.476 HYPERVISOR: exec_cmd: nio bind_filter udp-da832639-2d5f-4b16-88af-31841ae41e41 2 capture 
+Jan 03 16:56:19.482 HYPERVISOR: exec_cmd: nio setup_filter udp-da832639-2d5f-4b16-88af-31841ae41e41 2 en10mb C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\captures\Router2_FastEthernet0-0_to_SWL3A_FastEthernet0-1.pcap 
+Jan 03 16:56:57.169 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 03 16:56:57.217 HYPERVISOR: exec_cmd: vm stop Router2 
+Jan 03 16:56:57.288 VM: VM Router2 shutdown.
+Jan 03 16:56:57.296 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:56:58.765 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:56:58.911 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:56:59.268 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:56:59.370 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:57:02.317 HYPERVISOR: exec_cmd: nio unbind_filter udp-da832639-2d5f-4b16-88af-31841ae41e41 2 
+Jan 03 16:59:19.146 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:59:19.674 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 03 16:59:19.729 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 03 16:59:19.768 HYPERVISOR: exec_cmd: vm delete Router2 
+Jan 03 16:59:19.768 VM: VM Router2 destroyed.
+Jan 03 16:59:19.809 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 03 16:59:20.309 HYPERVISOR: Stopped.
+Jan 03 16:59:20.309 GENERAL: reset done.

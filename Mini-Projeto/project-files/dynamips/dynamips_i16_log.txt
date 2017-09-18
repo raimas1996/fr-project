@@ -1,0 +1,19 @@
+Jan 05 16:10:34.292 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 16:10:34.296 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49188.
+Jan 05 16:10:35.009 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 16:10:35.088 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 16:10:35.088 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 16:10:35.177 HYPERVISOR: exec_cmd: ethsw create Old Building 
+Jan 05 16:10:44.373 HYPERVISOR: exec_cmd: nio create_udp udp-2168b6bb-9b57-4480-9d3a-bcd337fe3881 10107 127.0.0.1 10106 
+Jan 05 16:10:44.494 HYPERVISOR: exec_cmd: ethsw add_nio Old Building udp-2168b6bb-9b57-4480-9d3a-bcd337fe3881 
+Jan 05 16:10:44.570 HYPERVISOR: exec_cmd: ethsw set_access_port Old Building udp-2168b6bb-9b57-4480-9d3a-bcd337fe3881 1 
+Jan 05 16:10:45.393 HYPERVISOR: exec_cmd: nio create_udp udp-9e50fb45-bd95-4a0e-ad00-c700a35e407c 10117 127.0.0.1 10116 
+Jan 05 16:10:45.527 HYPERVISOR: exec_cmd: ethsw add_nio Old Building udp-9e50fb45-bd95-4a0e-ad00-c700a35e407c 
+Jan 05 16:10:45.594 HYPERVISOR: exec_cmd: ethsw set_access_port Old Building udp-9e50fb45-bd95-4a0e-ad00-c700a35e407c 1 
+Jan 05 16:10:45.746 HYPERVISOR: exec_cmd: nio create_udp udp-7777b574-a436-442f-a2ac-5ec133399f44 10119 127.0.0.1 10118 
+Jan 05 16:10:45.887 HYPERVISOR: exec_cmd: ethsw add_nio Old Building udp-7777b574-a436-442f-a2ac-5ec133399f44 
+Jan 05 16:10:46.052 HYPERVISOR: exec_cmd: ethsw set_access_port Old Building udp-7777b574-a436-442f-a2ac-5ec133399f44 1 
+Jan 05 16:11:40.739 HYPERVISOR: exec_cmd: ethsw delete Old Building 
+Jan 05 16:11:40.914 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 16:11:40.920 HYPERVISOR: Stopped.
+Jan 05 16:11:40.921 GENERAL: reset done.

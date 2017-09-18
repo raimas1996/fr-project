@@ -1,0 +1,45 @@
+Jan 03 15:26:31.642 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 03 15:26:31.643 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60701.
+Jan 03 15:26:31.787 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 03 15:26:31.809 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 03 15:26:31.809 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 03 15:26:31.899 HYPERVISOR: exec_cmd: vm create ISP 6 c3745 
+Jan 03 15:26:31.900 VM: VM ISP created.
+Jan 03 15:26:31.918 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5000 
+Jan 03 15:26:31.957 HYPERVISOR: exec_cmd: c3745 get_mac_addr ISP 
+Jan 03 15:26:31.979 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/Pedro/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 03 15:26:32.011 HYPERVISOR: exec_cmd: c3745 set_mac_addr ISP c406.32e0.0000 
+Jan 03 15:26:32.034 HYPERVISOR: exec_cmd: vm set_ram ISP 256 
+Jan 03 15:26:32.094 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Jan 03 15:26:32.120 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+Jan 03 15:26:32.151 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Jan 03 15:26:32.177 HYPERVISOR: exec_cmd: vm set_config ISP configs/i6_startup-config.cfg 
+Jan 03 15:26:33.693 HYPERVISOR: exec_cmd: nio create_udp udp-b3498157-d6ce-401b-8531-138effbc88e7 10010 127.0.0.1 10011 
+Jan 03 15:26:33.731 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-b3498157-d6ce-401b-8531-138effbc88e7 
+Jan 03 15:26:33.766 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 03 15:26:33.826 HYPERVISOR: exec_cmd: nio create_udp udp-428f6526-1d4e-4777-a1f1-692e5dfe11a4 10014 127.0.0.1 10015 
+Jan 03 15:26:33.862 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-428f6526-1d4e-4777-a1f1-692e5dfe11a4 
+Jan 03 15:26:33.902 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 03 15:26:40.873 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Jan 03 15:26:40.884 HYPERVISOR: exec_cmd: vm set_ghost_file ISP c3745-advipservicesk9-m.124-4.T1.bin-256.ghost 
+Jan 03 15:26:40.890 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 03 15:26:40.896 HYPERVISOR: exec_cmd: vm start ISP 
+Jan 03 15:37:57.961 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 15:37:58.044 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 15:37:58.098 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:56:57.455 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 03 16:56:57.498 HYPERVISOR: exec_cmd: vm stop ISP 
+Jan 03 16:56:57.574 VM: VM ISP shutdown.
+Jan 03 16:56:57.586 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:56:58.743 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:56:58.889 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:56:59.247 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:56:59.350 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:59:19.090 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:59:19.689 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 03 16:59:19.736 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 03 16:59:19.775 HYPERVISOR: exec_cmd: vm delete ISP 
+Jan 03 16:59:19.775 VM: VM ISP destroyed.
+Jan 03 16:59:19.813 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 03 16:59:20.305 HYPERVISOR: Stopped.
+Jan 03 16:59:20.305 GENERAL: reset done.

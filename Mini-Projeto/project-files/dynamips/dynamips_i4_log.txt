@@ -1,0 +1,22 @@
+Jan 05 20:36:49.158 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 20:36:49.159 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49926.
+Jan 05 20:36:49.478 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 20:36:49.501 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 20:36:49.965 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 20:36:50.021 HYPERVISOR: exec_cmd: ethsw create Engeneering VLAN 
+Jan 05 20:36:52.206 HYPERVISOR: exec_cmd: nio create_udp udp-e7426278-0271-4a50-86f9-2d961f132924 10003 127.0.0.1 10002 
+Jan 05 20:36:52.249 HYPERVISOR: exec_cmd: ethsw add_nio Engeneering VLAN udp-e7426278-0271-4a50-86f9-2d961f132924 
+Jan 05 20:36:52.276 HYPERVISOR: exec_cmd: ethsw set_access_port Engeneering VLAN udp-e7426278-0271-4a50-86f9-2d961f132924 1 
+Jan 05 20:36:52.317 HYPERVISOR: exec_cmd: nio create_udp udp-5cf405c2-e851-4326-99f3-9d574f71ce99 10005 127.0.0.1 10004 
+Jan 05 20:36:52.354 HYPERVISOR: exec_cmd: ethsw add_nio Engeneering VLAN udp-5cf405c2-e851-4326-99f3-9d574f71ce99 
+Jan 05 20:36:52.394 HYPERVISOR: exec_cmd: ethsw set_access_port Engeneering VLAN udp-5cf405c2-e851-4326-99f3-9d574f71ce99 1 
+Jan 05 20:36:52.653 HYPERVISOR: exec_cmd: nio create_udp udp-aad7351e-35d9-4c2b-9f20-677ea28e366c 10021 127.0.0.1 10020 
+Jan 05 20:36:52.684 HYPERVISOR: exec_cmd: ethsw add_nio Engeneering VLAN udp-aad7351e-35d9-4c2b-9f20-677ea28e366c 
+Jan 05 20:36:52.728 HYPERVISOR: exec_cmd: ethsw set_access_port Engeneering VLAN udp-aad7351e-35d9-4c2b-9f20-677ea28e366c 1 
+Jan 05 20:36:54.138 HYPERVISOR: exec_cmd: nio create_udp udp-b75f8c79-5a7e-4abb-bfbe-51d5a697e14a 10067 127.0.0.1 10066 
+Jan 05 20:36:54.195 HYPERVISOR: exec_cmd: ethsw add_nio Engeneering VLAN udp-b75f8c79-5a7e-4abb-bfbe-51d5a697e14a 
+Jan 05 20:36:54.217 HYPERVISOR: exec_cmd: ethsw set_access_port Engeneering VLAN udp-b75f8c79-5a7e-4abb-bfbe-51d5a697e14a 1 
+Jan 05 21:17:37.859 HYPERVISOR: exec_cmd: ethsw delete Engeneering VLAN 
+Jan 05 21:17:37.959 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 21:17:38.005 HYPERVISOR: Stopped.
+Jan 05 21:17:38.006 GENERAL: reset done.

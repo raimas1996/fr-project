@@ -1,0 +1,67 @@
+Jan 05 20:36:50.556 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 20:36:50.558 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49943.
+Jan 05 20:36:50.751 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 20:36:50.780 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 20:36:50.780 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 20:36:50.809 HYPERVISOR: exec_cmd: vm create SWL3A 5 c3745 
+Jan 05 20:36:50.810 VM: VM SWL3A created.
+Jan 05 20:36:50.839 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3A 5002 
+Jan 05 20:36:50.873 HYPERVISOR: exec_cmd: c3745 get_mac_addr SWL3A 
+Jan 05 20:36:50.931 HYPERVISOR: exec_cmd: vm set_nvram SWL3A 256 
+Jan 05 20:36:50.957 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:50.987 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3A 2 0 NM-1FE-TX 
+Jan 05 20:36:51.016 HYPERVISOR: exec_cmd: vm set_exec_area SWL3A 64 
+Jan 05 20:36:51.046 HYPERVISOR: exec_cmd: vm set_disk0 SWL3A 1 
+Jan 05 20:36:51.083 HYPERVISOR: exec_cmd: vm set_ram SWL3A 256 
+Jan 05 20:36:51.108 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:51.145 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3A 0x612c0a28 
+Jan 05 20:36:51.180 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:51.210 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3A 1 0 NM-16ESW 
+Jan 05 20:36:51.250 HYPERVISOR: exec_cmd: vm set_ios SWL3A C:/Users/Pedro/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 05 20:36:51.302 HYPERVISOR: exec_cmd: c3745 set_mac_addr SWL3A c405.3518.0000 
+Jan 05 20:36:51.348 HYPERVISOR: exec_cmd: vm set_config SWL3A configs/i5_startup-config.cfg 
+Jan 05 20:36:53.676 HYPERVISOR: exec_cmd: nio create_udp udp-1ab9eccc-44f2-4992-9ff6-afe7bc9033c6 10052 127.0.0.1 10053 
+Jan 05 20:36:53.711 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 2 0 udp-1ab9eccc-44f2-4992-9ff6-afe7bc9033c6 
+Jan 05 20:36:53.759 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:53.797 HYPERVISOR: exec_cmd: nio create_udp udp-cd57c44f-8700-49cb-9994-b345bbcd1c46 10055 127.0.0.1 10054 
+Jan 05 20:36:53.819 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 0 1 udp-cd57c44f-8700-49cb-9994-b345bbcd1c46 
+Jan 05 20:36:53.851 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:53.900 HYPERVISOR: exec_cmd: nio create_udp udp-d3eba330-0050-4156-9366-bcea51fae0b2 10056 127.0.0.1 10057 
+Jan 05 20:36:53.933 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 1 0 udp-d3eba330-0050-4156-9366-bcea51fae0b2 
+Jan 05 20:36:53.970 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:54.053 HYPERVISOR: exec_cmd: nio create_udp udp-6888b16b-15f2-4342-bb36-a4aa6dcb39ce 10064 127.0.0.1 10065 
+Jan 05 20:36:54.078 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 1 1 udp-6888b16b-15f2-4342-bb36-a4aa6dcb39ce 
+Jan 05 20:36:54.111 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:56.862 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3A 2 
+Jan 05 20:36:56.874 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3A c3745-advipservicesk9-m.124-4.T1.bin-256.ghost 
+Jan 05 20:36:56.881 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:36:56.891 HYPERVISOR: exec_cmd: vm start SWL3A 
+Jan 05 20:47:29.360 HYPERVISOR: exec_cmd: nio create_udp udp-2b15d427-6e6d-4c65-9d01-6deedc10b55b 10077 127.0.0.1 10076 
+Jan 05 20:47:29.381 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 0 0 udp-2b15d427-6e6d-4c65-9d01-6deedc10b55b 
+Jan 05 20:47:29.398 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:47:29.414 HYPERVISOR: exec_cmd: vm slot_enable_nio SWL3A 0 0 
+Jan 05 20:47:58.435 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 20:47:58.451 HYPERVISOR: exec_cmd: vm slot_disable_nio SWL3A 0 0 
+Jan 05 20:47:58.466 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding SWL3A 0 0 
+Jan 05 20:47:58.482 HYPERVISOR: exec_cmd: nio delete udp-2b15d427-6e6d-4c65-9d01-6deedc10b55b 
+Jan 05 21:03:09.730 HYPERVISOR: exec_cmd: nio create_udp udp-e034e29a-7d29-42ac-813e-3aa7eb225b48 10076 127.0.0.1 10077 
+Jan 05 21:03:09.746 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 0 0 udp-e034e29a-7d29-42ac-813e-3aa7eb225b48 
+Jan 05 21:03:09.761 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 21:03:09.773 HYPERVISOR: exec_cmd: vm slot_enable_nio SWL3A 0 0 
+Jan 05 21:03:15.694 HYPERVISOR: exec_cmd: vm extract_config SWL3A 
+Jan 05 21:06:02.496 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 21:06:02.510 HYPERVISOR: exec_cmd: vm slot_disable_nio SWL3A 0 0 
+Jan 05 21:06:02.529 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding SWL3A 0 0 
+Jan 05 21:06:02.537 HYPERVISOR: exec_cmd: nio delete udp-e034e29a-7d29-42ac-813e-3aa7eb225b48 
+Jan 05 21:17:34.915 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 21:17:34.940 HYPERVISOR: exec_cmd: vm stop SWL3A 
+Jan 05 21:17:35.104 VM: VM SWL3A shutdown.
+Jan 05 21:17:35.132 HYPERVISOR: exec_cmd: vm extract_config SWL3A 
+Jan 05 21:17:36.133 HYPERVISOR: exec_cmd: vm extract_config SWL3A 
+Jan 05 21:17:38.547 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 05 21:17:38.584 HYPERVISOR: exec_cmd: vm extract_config SWL3A 
+Jan 05 21:17:38.647 HYPERVISOR: exec_cmd: vm delete SWL3A 
+Jan 05 21:17:38.647 VM: VM SWL3A destroyed.
+Jan 05 21:17:38.678 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 21:17:38.850 HYPERVISOR: Stopped.
+Jan 05 21:17:38.850 GENERAL: reset done.

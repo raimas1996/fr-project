@@ -1,0 +1,22 @@
+Jan 05 16:10:35.686 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 16:10:35.691 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49200.
+Jan 05 16:10:36.290 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 16:10:36.400 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 16:10:36.401 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 16:10:36.505 HYPERVISOR: exec_cmd: ethsw create VoIP VLAN 
+Jan 05 16:10:36.900 HYPERVISOR: exec_cmd: nio create_udp udp-344e6605-d24f-4b6e-88de-98036c82be1b 10082 127.0.0.1 10083 
+Jan 05 16:10:37.000 HYPERVISOR: exec_cmd: ethsw add_nio VoIP VLAN udp-344e6605-d24f-4b6e-88de-98036c82be1b 
+Jan 05 16:10:37.040 HYPERVISOR: exec_cmd: ethsw set_access_port VoIP VLAN udp-344e6605-d24f-4b6e-88de-98036c82be1b 1 
+Jan 05 16:10:44.262 HYPERVISOR: exec_cmd: nio create_udp udp-92170191-74a8-48b0-9dac-215ac031d324 10105 127.0.0.1 10104 
+Jan 05 16:10:44.393 HYPERVISOR: exec_cmd: ethsw add_nio VoIP VLAN udp-92170191-74a8-48b0-9dac-215ac031d324 
+Jan 05 16:10:44.507 HYPERVISOR: exec_cmd: ethsw set_access_port VoIP VLAN udp-92170191-74a8-48b0-9dac-215ac031d324 1 
+Jan 05 16:10:46.999 HYPERVISOR: exec_cmd: nio create_udp udp-dcd4b4e3-017a-42e2-bf98-96eff2cd20b7 10135 127.0.0.1 10134 
+Jan 05 16:10:47.071 HYPERVISOR: exec_cmd: ethsw add_nio VoIP VLAN udp-dcd4b4e3-017a-42e2-bf98-96eff2cd20b7 
+Jan 05 16:10:47.145 HYPERVISOR: exec_cmd: ethsw set_access_port VoIP VLAN udp-dcd4b4e3-017a-42e2-bf98-96eff2cd20b7 1 
+Jan 05 16:10:49.127 HYPERVISOR: exec_cmd: nio create_udp udp-5f2ecc8f-f799-4ca8-9aec-718647fea2e1 10152 127.0.0.1 10153 
+Jan 05 16:10:49.220 HYPERVISOR: exec_cmd: ethsw add_nio VoIP VLAN udp-5f2ecc8f-f799-4ca8-9aec-718647fea2e1 
+Jan 05 16:10:49.292 HYPERVISOR: exec_cmd: ethsw set_access_port VoIP VLAN udp-5f2ecc8f-f799-4ca8-9aec-718647fea2e1 1 
+Jan 05 16:11:40.751 HYPERVISOR: exec_cmd: ethsw delete VoIP VLAN 
+Jan 05 16:11:40.945 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 16:11:41.154 HYPERVISOR: Stopped.
+Jan 05 16:11:41.155 GENERAL: reset done.

@@ -1,0 +1,60 @@
+autostart = False
+version = 0.8.2
+[127.0.0.1:7200]
+    workingdir = C:\Users\Pedro\AppData\Local\Temp
+    udp = 10000
+    [[3745]]
+        image = C:\Users\Pedro\Downloads\c3745-advipservicesk9-m.124-4.T1\c3745-advipservicesk9-m.124-4.T1.bin
+        sparsemem = True
+        ghostios = True
+    [[ROUTER SWL3B]]
+        model = 3745
+        console = 2006
+        aux = 2506
+        slot1 = NM-16ESW
+        cnfg = configs\SWL3B.cfg
+        symbol = EtherSwitch router
+        x = 6.5
+        y = 9.5
+        z = 1.0
+    [[ROUTER SWL3A]]
+        model = 3745
+        console = 2005
+        aux = 2505
+        slot1 = NM-16ESW
+        cnfg = configs\SWL3A.cfg
+        symbol = EtherSwitch router
+        x = -326.5
+        y = 33.5
+        z = 1.0
+    [[ROUTER ISP]]
+        model = 3745
+        console = 2001
+        aux = 2501
+        cnfg = configs\ISP.cfg
+        x = -150.0
+        y = -260.0
+        z = 1.0
+[127.0.0.1:7201]
+    workingdir = C:\Users\Pedro\AppData\Local\Temp
+    udp = 10100
+    [[7200]]
+        image = C:\Users\Pedro\Downloads\c7200-jk9o3s-mz.123-8.T\c7200-jk9o3s-mz.123-8.T.bin
+        sparsemem = True
+        ghostios = True
+    [[ROUTER Router1]]
+        console = 2010
+        aux = 2510
+        cnfg = configs\Router1.cfg
+        x = -154.0
+        y = -100.0
+        z = 1.0
+    [[ROUTER Router2]]
+        console = 2004
+        aux = 2504
+        cnfg = configs\Router2.cfg
+        x = -489.0
+        y = 33.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs

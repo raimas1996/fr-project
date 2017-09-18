@@ -1,0 +1,22 @@
+Jan 05 10:20:39.332 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 10:20:39.338 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61689.
+Jan 05 10:20:39.744 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 10:20:39.900 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 10:20:39.900 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 10:20:40.007 HYPERVISOR: exec_cmd: ethsw create Videoconf. VLAN 
+Jan 05 10:20:40.588 HYPERVISOR: exec_cmd: nio create_udp udp-f44f2523-7f77-40f1-8b77-22819febf663 10163 127.0.0.1 10162 
+Jan 05 10:20:40.645 HYPERVISOR: exec_cmd: ethsw add_nio Videoconf. VLAN udp-f44f2523-7f77-40f1-8b77-22819febf663 
+Jan 05 10:20:40.695 HYPERVISOR: exec_cmd: ethsw set_access_port Videoconf. VLAN udp-f44f2523-7f77-40f1-8b77-22819febf663 1 
+Jan 05 10:20:49.185 HYPERVISOR: exec_cmd: nio create_udp udp-d1e585d0-fe7e-4f35-ae46-f7477ee2f3d0 10189 127.0.0.1 10188 
+Jan 05 10:20:49.359 HYPERVISOR: exec_cmd: ethsw add_nio Videoconf. VLAN udp-d1e585d0-fe7e-4f35-ae46-f7477ee2f3d0 
+Jan 05 10:20:49.509 HYPERVISOR: exec_cmd: ethsw set_access_port Videoconf. VLAN udp-d1e585d0-fe7e-4f35-ae46-f7477ee2f3d0 1 
+Jan 05 10:20:52.042 HYPERVISOR: exec_cmd: nio create_udp udp-d3482881-dc1d-4197-8e32-0d34655f0da1 10215 127.0.0.1 10214 
+Jan 05 10:20:52.138 HYPERVISOR: exec_cmd: ethsw add_nio Videoconf. VLAN udp-d3482881-dc1d-4197-8e32-0d34655f0da1 
+Jan 05 10:20:52.259 HYPERVISOR: exec_cmd: ethsw set_access_port Videoconf. VLAN udp-d3482881-dc1d-4197-8e32-0d34655f0da1 1 
+Jan 05 10:20:54.370 HYPERVISOR: exec_cmd: nio create_udp udp-acf84177-cc38-4a1b-98e6-b0707783ce64 10232 127.0.0.1 10233 
+Jan 05 10:20:54.449 HYPERVISOR: exec_cmd: ethsw add_nio Videoconf. VLAN udp-acf84177-cc38-4a1b-98e6-b0707783ce64 
+Jan 05 10:20:54.565 HYPERVISOR: exec_cmd: ethsw set_access_port Videoconf. VLAN udp-acf84177-cc38-4a1b-98e6-b0707783ce64 1 
+Jan 05 10:22:07.046 HYPERVISOR: exec_cmd: ethsw delete Videoconf. VLAN 
+Jan 05 10:22:07.338 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 10:22:07.541 HYPERVISOR: Stopped.
+Jan 05 10:22:07.541 GENERAL: reset done.

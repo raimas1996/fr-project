@@ -1,0 +1,41 @@
+Jan 05 20:36:50.233 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 20:36:50.235 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49936.
+Jan 05 20:36:50.389 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 20:36:50.414 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 20:36:50.414 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 20:36:50.440 HYPERVISOR: exec_cmd: vm create ISP 6 c3745 
+Jan 05 20:36:50.441 VM: VM ISP created.
+Jan 05 20:36:50.475 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5000 
+Jan 05 20:36:50.494 HYPERVISOR: exec_cmd: c3745 get_mac_addr ISP 
+Jan 05 20:36:50.616 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Jan 05 20:36:50.636 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Jan 05 20:36:50.671 HYPERVISOR: exec_cmd: vm set_ram ISP 256 
+Jan 05 20:36:50.692 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+Jan 05 20:36:50.709 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 05 20:36:50.737 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x612c0a28 
+Jan 05 20:36:50.762 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/Pedro/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 05 20:36:50.791 HYPERVISOR: exec_cmd: c3745 set_mac_addr ISP c406.32e0.0000 
+Jan 05 20:36:50.820 HYPERVISOR: exec_cmd: vm set_config ISP configs/i6_startup-config.cfg 
+Jan 05 20:36:52.425 HYPERVISOR: exec_cmd: nio create_udp udp-1c1faa38-0bef-4d20-894b-e9f411efb1a5 10012 127.0.0.1 10013 
+Jan 05 20:36:52.465 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-1c1faa38-0bef-4d20-894b-e9f411efb1a5 
+Jan 05 20:36:52.520 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 05 20:36:53.930 HYPERVISOR: exec_cmd: nio create_udp udp-3ef2507d-ab41-4349-bd89-38198cee9fe1 10060 127.0.0.1 10061 
+Jan 05 20:36:53.963 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-3ef2507d-ab41-4349-bd89-38198cee9fe1 
+Jan 05 20:36:54.001 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 05 20:36:56.909 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Jan 05 20:36:56.920 HYPERVISOR: exec_cmd: vm set_ghost_file ISP c3745-advipservicesk9-m.124-4.T1.bin-256.ghost 
+Jan 05 20:36:56.926 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 05 20:36:56.933 HYPERVISOR: exec_cmd: vm start ISP 
+Jan 05 21:03:15.668 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 05 21:17:35.107 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 05 21:17:35.137 HYPERVISOR: exec_cmd: vm stop ISP 
+Jan 05 21:17:35.213 VM: VM ISP shutdown.
+Jan 05 21:17:35.236 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 05 21:17:36.115 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 05 21:17:38.560 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 05 21:17:38.594 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 05 21:17:38.625 HYPERVISOR: exec_cmd: vm delete ISP 
+Jan 05 21:17:38.625 VM: VM ISP destroyed.
+Jan 05 21:17:38.656 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 21:17:38.904 HYPERVISOR: Stopped.
+Jan 05 21:17:38.904 GENERAL: reset done.

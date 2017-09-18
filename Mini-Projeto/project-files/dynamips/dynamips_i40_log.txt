@@ -1,0 +1,57 @@
+Jan 03 15:26:31.741 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 03 15:26:31.742 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60704.
+Jan 03 15:26:31.911 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 03 15:26:31.938 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 03 15:26:31.938 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 03 15:26:31.967 HYPERVISOR: exec_cmd: vm create Router1 4 c3745 
+Jan 03 15:26:31.968 VM: VM Router1 created.
+Jan 03 15:26:31.992 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router1 5001 
+Jan 03 15:26:32.023 HYPERVISOR: exec_cmd: c3745 get_mac_addr Router1 
+Jan 03 15:26:32.076 HYPERVISOR: exec_cmd: vm set_ram Router1 256 
+Jan 03 15:26:32.104 HYPERVISOR: exec_cmd: vm set_ios Router1 C:/Users/Pedro/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 03 15:26:32.128 HYPERVISOR: exec_cmd: vm set_exec_area Router1 64 
+Jan 03 15:26:32.160 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:32.185 HYPERVISOR: exec_cmd: vm slot_add_binding Router1 2 0 NM-1FE-TX 
+Jan 03 15:26:32.215 HYPERVISOR: exec_cmd: vm set_disk0 Router1 0 
+Jan 03 15:26:32.268 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:32.295 HYPERVISOR: exec_cmd: vm slot_add_binding Router1 1 0 NM-1FE-TX 
+Jan 03 15:26:32.318 HYPERVISOR: exec_cmd: vm set_nvram Router1 256 
+Jan 03 15:26:32.350 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:32.375 HYPERVISOR: exec_cmd: vm set_idle_pc Router1 0x612c0a28 
+Jan 03 15:26:32.402 HYPERVISOR: exec_cmd: c3745 set_mac_addr Router1 c404.2654.0000 
+Jan 03 15:26:32.426 HYPERVISOR: exec_cmd: vm set_config Router1 configs/i4_startup-config.cfg 
+Jan 03 15:26:33.763 HYPERVISOR: exec_cmd: nio create_udp udp-5ec72c0c-df2f-4e5d-8684-11d73a588d5f 10013 127.0.0.1 10012 
+Jan 03 15:26:33.793 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 0 1 udp-5ec72c0c-df2f-4e5d-8684-11d73a588d5f 
+Jan 03 15:26:33.829 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:33.882 HYPERVISOR: exec_cmd: nio create_udp udp-5bc907b3-4c2e-453c-9928-b888eb305a04 10015 127.0.0.1 10014 
+Jan 03 15:26:33.913 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 0 0 udp-5bc907b3-4c2e-453c-9928-b888eb305a04 
+Jan 03 15:26:33.952 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:34.672 HYPERVISOR: exec_cmd: nio create_udp udp-d797ee2d-2ebf-4d11-8966-cc55814352bf 10039 127.0.0.1 10038 
+Jan 03 15:26:34.703 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 1 0 udp-d797ee2d-2ebf-4d11-8966-cc55814352bf 
+Jan 03 15:26:34.734 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:34.838 HYPERVISOR: exec_cmd: nio create_udp udp-8d5f1f35-d79a-4c37-bc35-4655458ed752 10044 127.0.0.1 10045 
+Jan 03 15:26:34.868 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 2 0 udp-8d5f1f35-d79a-4c37-bc35-4655458ed752 
+Jan 03 15:26:34.901 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:40.849 HYPERVISOR: exec_cmd: vm set_ghost_status Router1 2 
+Jan 03 15:26:40.861 HYPERVISOR: exec_cmd: vm set_ghost_file Router1 c3745-advipservicesk9-m.124-4.T1.bin-256.ghost 
+Jan 03 15:26:40.868 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 15:26:40.879 HYPERVISOR: exec_cmd: vm start Router1 
+Jan 03 15:37:57.888 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 15:37:57.988 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 15:37:58.009 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:56:57.231 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 16:56:57.250 HYPERVISOR: exec_cmd: vm stop Router1 
+Jan 03 16:56:57.413 VM: VM Router1 shutdown.
+Jan 03 16:56:57.437 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:56:58.718 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:56:58.867 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:56:59.043 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:56:59.329 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:59:18.988 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:59:19.705 HYPERVISOR: exec_cmd: vm get_status Router1 
+Jan 03 16:59:19.739 HYPERVISOR: exec_cmd: vm extract_config Router1 
+Jan 03 16:59:19.780 HYPERVISOR: exec_cmd: vm delete Router1 
+Jan 03 16:59:19.781 VM: VM Router1 destroyed.
+Jan 03 16:59:19.817 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 03 16:59:20.046 HYPERVISOR: Stopped.
+Jan 03 16:59:20.047 GENERAL: reset done.

@@ -1,0 +1,22 @@
+Jan 05 16:10:34.723 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 16:10:34.728 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49193.
+Jan 05 16:10:35.115 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 16:10:35.207 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 16:10:35.208 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 16:10:35.312 HYPERVISOR: exec_cmd: ethsw create Research VLAN 
+Jan 05 16:10:36.345 HYPERVISOR: exec_cmd: nio create_udp udp-231c5f9f-5e78-4eb8-a992-687d99869a69 10081 127.0.0.1 10080 
+Jan 05 16:10:36.444 HYPERVISOR: exec_cmd: ethsw add_nio Research VLAN udp-231c5f9f-5e78-4eb8-a992-687d99869a69 
+Jan 05 16:10:36.525 HYPERVISOR: exec_cmd: ethsw set_access_port Research VLAN udp-231c5f9f-5e78-4eb8-a992-687d99869a69 1 
+Jan 05 16:10:43.502 HYPERVISOR: exec_cmd: nio create_udp udp-69608b91-f89a-4fdb-a64c-317a8160157e 10103 127.0.0.1 10102 
+Jan 05 16:10:43.599 HYPERVISOR: exec_cmd: ethsw add_nio Research VLAN udp-69608b91-f89a-4fdb-a64c-317a8160157e 
+Jan 05 16:10:43.701 HYPERVISOR: exec_cmd: ethsw set_access_port Research VLAN udp-69608b91-f89a-4fdb-a64c-317a8160157e 1 
+Jan 05 16:10:46.933 HYPERVISOR: exec_cmd: nio create_udp udp-b23f27ec-2283-4c3d-a21f-596dd1c60f6b 10133 127.0.0.1 10132 
+Jan 05 16:10:47.011 HYPERVISOR: exec_cmd: ethsw add_nio Research VLAN udp-b23f27ec-2283-4c3d-a21f-596dd1c60f6b 
+Jan 05 16:10:47.085 HYPERVISOR: exec_cmd: ethsw set_access_port Research VLAN udp-b23f27ec-2283-4c3d-a21f-596dd1c60f6b 1 
+Jan 05 16:10:49.043 HYPERVISOR: exec_cmd: nio create_udp udp-6ee9779d-7745-4d07-884a-fbd1442dd6a9 10150 127.0.0.1 10151 
+Jan 05 16:10:49.160 HYPERVISOR: exec_cmd: ethsw add_nio Research VLAN udp-6ee9779d-7745-4d07-884a-fbd1442dd6a9 
+Jan 05 16:10:49.247 HYPERVISOR: exec_cmd: ethsw set_access_port Research VLAN udp-6ee9779d-7745-4d07-884a-fbd1442dd6a9 1 
+Jan 05 16:11:40.796 HYPERVISOR: exec_cmd: ethsw delete Research VLAN 
+Jan 05 16:11:41.068 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 16:11:41.515 HYPERVISOR: Stopped.
+Jan 05 16:11:41.515 GENERAL: reset done.

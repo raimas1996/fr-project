@@ -1,0 +1,22 @@
+Jan 05 16:10:35.548 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 05 16:10:35.552 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49199.
+Jan 05 16:10:36.246 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 16:10:36.370 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips 
+Jan 05 16:10:36.370 GENERAL: working_dir=C:\Users\Pedro\GNS3\projects\Mini-Projeto\project-files\dynamips
+Jan 05 16:10:36.477 HYPERVISOR: exec_cmd: ethsw create Administration VLAN 
+Jan 05 16:10:43.029 HYPERVISOR: exec_cmd: nio create_udp udp-f0177a2d-80e2-4856-b9cd-9e16dc8b3d7e 10101 127.0.0.1 10100 
+Jan 05 16:10:43.095 HYPERVISOR: exec_cmd: ethsw add_nio Administration VLAN udp-f0177a2d-80e2-4856-b9cd-9e16dc8b3d7e 
+Jan 05 16:10:43.167 HYPERVISOR: exec_cmd: ethsw set_access_port Administration VLAN udp-f0177a2d-80e2-4856-b9cd-9e16dc8b3d7e 1 
+Jan 05 16:10:45.784 HYPERVISOR: exec_cmd: nio create_udp udp-45c39483-dce4-475c-86a2-0dee6f739fd8 10121 127.0.0.1 10120 
+Jan 05 16:10:45.969 HYPERVISOR: exec_cmd: ethsw add_nio Administration VLAN udp-45c39483-dce4-475c-86a2-0dee6f739fd8 
+Jan 05 16:10:46.079 HYPERVISOR: exec_cmd: ethsw set_access_port Administration VLAN udp-45c39483-dce4-475c-86a2-0dee6f739fd8 1 
+Jan 05 16:10:46.555 HYPERVISOR: exec_cmd: nio create_udp udp-ba11db88-8fdf-4dca-aaa3-ad5033527a99 10131 127.0.0.1 10130 
+Jan 05 16:10:46.639 HYPERVISOR: exec_cmd: ethsw add_nio Administration VLAN udp-ba11db88-8fdf-4dca-aaa3-ad5033527a99 
+Jan 05 16:10:46.772 HYPERVISOR: exec_cmd: ethsw set_access_port Administration VLAN udp-ba11db88-8fdf-4dca-aaa3-ad5033527a99 1 
+Jan 05 16:10:48.686 HYPERVISOR: exec_cmd: nio create_udp udp-abbc5c6b-8068-44bf-b0ce-7203e97f83b4 10148 127.0.0.1 10149 
+Jan 05 16:10:48.780 HYPERVISOR: exec_cmd: ethsw add_nio Administration VLAN udp-abbc5c6b-8068-44bf-b0ce-7203e97f83b4 
+Jan 05 16:10:48.879 HYPERVISOR: exec_cmd: ethsw set_access_port Administration VLAN udp-abbc5c6b-8068-44bf-b0ce-7203e97f83b4 1 
+Jan 05 16:11:40.728 HYPERVISOR: exec_cmd: ethsw delete Administration VLAN 
+Jan 05 16:11:40.928 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 05 16:11:41.094 HYPERVISOR: Stopped.
+Jan 05 16:11:41.094 GENERAL: reset done.
